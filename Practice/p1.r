@@ -1,0 +1,5 @@
+matrix(1:9, byrow = TRUE, nrow = 3)
+matrix(1:12, byrow = TRUE, nrow = 4)
+my_vect <- c(1,2,3,4,5,6,7,8,9,10)
+matrix(my_vect, nrow = 2)
+matrix(my_vect, nrow = 2, byrow = TRUE)
